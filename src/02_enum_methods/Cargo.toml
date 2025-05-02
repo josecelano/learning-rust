@@ -1,0 +1,7 @@
+[package]
+name = "enum_methods"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating methods and traits for enums in Rust"
+[dependencies]

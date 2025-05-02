@@ -1,0 +1,7 @@
+[package]
+name = "generic_impl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating why impl<T> is needed for generic methods on generic structs"
+[dependencies]

@@ -1,0 +1,7 @@
+[package]
+name = "non_primitive_constants"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating non-primitive constants in Rust"
+[dependencies]

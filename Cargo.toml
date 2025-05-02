@@ -1,0 +1,25 @@
+[workspace]
+members = [
+    "src/01_newtype_pattern",
+    "src/02_enum_methods",
+    "src/03_lifetime_order",
+    "src/04_generic_impl",
+    "src/05_non_primitive_constants",
+    "src/06_composite_impl",
+    "src/07_generic_traits",
+]
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Jose Celano <your.email@example.com>"]
+description = "A collection of Rust examples and learning materials"
+license = "MIT"
+[workspace.dependencies]
+tokio = { version = "1.36", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"

@@ -1,0 +1,7 @@
+[package]
+name = "generic_traits"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating generic traits with associated types vs generic methods"
+[dependencies]

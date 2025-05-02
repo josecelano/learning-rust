@@ -1,0 +1,7 @@
+[package]
+name = "composite_impl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating implementing traits for composite types"
+[dependencies]

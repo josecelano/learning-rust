@@ -1,0 +1,7 @@
+[package]
+name = "lifetime_order"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+description = "Examples demonstrating the flexibility of parameter ordering in Rust"
+[dependencies]

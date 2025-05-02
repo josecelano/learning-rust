@@ -1,0 +1,4 @@
+dtolnay
+Newtype
+serde
+thiserror
