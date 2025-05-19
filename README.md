@@ -168,8 +168,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- The Rust community for their excellent documentation and resources
-- All the open-source projects that have inspired these examples
+- The Rust community for their excellent documentation and resources.
+- All the open-source projects that have inspired these examples.
+- Eduardo Ferro Aldama for writing the wonderful serries of articles about Vive Coding (I've copied some of the content from his articles):
+  - [Vibe coding: building things from curiosity and flow](https://www.eferro.net/2025/03/vibe-coding-building-things-from.html)
+  - [Vibe coding II: when flow meets tests](https://www.eferro.net/2025/04/vibe-coding-ii-when-flow-meets-tests.html)
+  - [Vibe Coding III: Complexity Creeps—Unless You Don’t Let It](https://www.eferro.net/2025/04/vibe-coding-iii-complexity-creepsunless.html)
 
 ## 🔗 Similar Projects
 

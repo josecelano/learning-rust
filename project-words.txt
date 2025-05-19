@@ -1,4 +1,6 @@
+Aldama
 dtolnay
+Ferro
 Newtype
 serde
 thiserror
