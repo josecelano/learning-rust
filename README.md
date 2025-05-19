@@ -1,8 +1,12 @@
 # Learning Rust
 
-This repository contains a collection of Rust examples, patterns, and concepts that I've learned while working with Rust in a professional environment. Each example is designed to be self-contained and includes detailed explanations.
+This repository contains a collection of Rust examples, patterns, and concepts
+that I've learned while working with Rust in a professional environment. Each
+example is designed to be self-contained and includes detailed explanations.
 
-> DISCLAIMER: I'm using <https://www.cursor.com/> to generate the code, so some of the code might not be 100% correct.
+> DISCLAIMER: I'm using <https://www.cursor.com/> and  Visual Studio Code with
+Copilot (and others in the future) to generate the code, so some of the code
+might not be 100% correct.
 
 ## 🎯 Purpose
 
@@ -50,7 +54,12 @@ Each example is contained in its own directory with:
    ```
 
 3. Run all examples:
-   n4. Run tests:
+
+   ```bash
+   ./bin/run_examples.sh
+   ```
+
+4. Run tests:
 
    ```bash
    cargo test
