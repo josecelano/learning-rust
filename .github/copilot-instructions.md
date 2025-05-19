@@ -65,10 +65,11 @@
 
 - Regarding steps:
   - Always ask for confirmation before proceeding with a solution.
+  - Execute linters after each step with `./bin/lint.sh`.
   - Execute all tests after each step with `cargo test`.
     - Resolve clippy warnings and errors  immediately.
     - Resolve broken tests as soon as possible.
-  - Execute all examples after each step `./ben/run_examples.sh`.
+  - Execute all examples after each step `./bin/run_examples.sh`.
   
 - Regarding commits:
   - Always commit after each step.
@@ -88,6 +89,7 @@
     - `description` is a short description of the issue using dash to separate words.
   - Example branch name `1-add-copilot-instructions`
   - If the issues is related to other issue, a PR or a parent collect information from those issues until you have enough information to solve the issue.
+  - Don't create remote branches. Create only local branches.
 
 ### Procedures for maintaining code
 
@@ -111,10 +113,11 @@
 
 - Use the same template as the other examples.
 - Create a new directory in `src/` with a name following the pattern `XX_description` where:
-  - `XX` is a number that follows the order of the examples.
+  - `XX` is a number that follows the order of the examples. USe the next number available.
   - `description` is a short description of the example using snake_case.
 - The issue number on GiHub is not related to the example number.
   - Example number are just created sequentially when a new example is created.
 - Update the main project `README.md` file with the new example.
+- Include the new example in the `bin/run_examples.sh` file.
 - Use the README.md file in the root directory of the example to describe the example.
 - Document the code in the example.
